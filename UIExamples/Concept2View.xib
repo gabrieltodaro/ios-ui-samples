@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift" translatesAutoresizingMaskIntoConstraints="NO" id="bU2-N1-y7f">
+                    <rect key="frame" x="0.0" y="44" width="414" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="Ih8-e5-cpc"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift is awesome!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2h-sP-SHd">
+                    <rect key="frame" x="16" y="360" width="382" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5r-N3-kRW">
+                    <rect key="frame" x="16" y="405" width="382" height="86"/>
+                    <string key="text">First released in 2014, Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="C5r-N3-kRW" secondAttribute="trailing" constant="16" id="5gu-k4-I5R"/>
+                <constraint firstItem="C5r-N3-kRW" firstAttribute="top" secondItem="Z2h-sP-SHd" secondAttribute="bottom" constant="16" id="91G-Dt-RyQ"/>
+                <constraint firstItem="bU2-N1-y7f" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Frm-iD-yhf"/>
+                <constraint firstItem="bU2-N1-y7f" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="S9D-CA-HBl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="C5r-N3-kRW" secondAttribute="bottom" constant="16" id="XN6-oF-8Nz"/>
+                <constraint firstItem="Z2h-sP-SHd" firstAttribute="top" secondItem="bU2-N1-y7f" secondAttribute="bottom" constant="16" id="ct9-b0-HFs"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Z2h-sP-SHd" secondAttribute="trailing" constant="16" id="dqe-VN-Kem"/>
+                <constraint firstItem="C5r-N3-kRW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="tDy-bF-4hI"/>
+                <constraint firstItem="Z2h-sP-SHd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="wOL-Km-Abk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="bU2-N1-y7f" secondAttribute="trailing" id="zTk-hs-Yo6"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="99.441964285714278"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="swift" width="1200" height="675"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
